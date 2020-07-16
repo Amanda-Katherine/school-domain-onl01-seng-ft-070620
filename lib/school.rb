@@ -14,7 +14,7 @@ attr_accessor :roster
       #   @roster[grade] << name
       # end #if
 
-      self.grade == nil ? @roster[grade] = [name] : @roster[grade] << name
+      self.grade(grade) == nil ? @roster[grade] = [name] : @roster[grade] << name
   end #add_student
 
   def grade(grade)
