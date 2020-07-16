@@ -13,6 +13,12 @@ attr_accessor :roster
       else
         @roster[grade] << name
       end #if
+
+
+      if @roster[grade] == nil ?   @roster[grade] = [name] : @roster[grade] << name
+      # else
+      #
+      # end #if
   end #add_student
 
   def grade(grade)
