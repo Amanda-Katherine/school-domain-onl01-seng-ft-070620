@@ -10,7 +10,7 @@ attr_accessor :roster
 
       if @roster[grade] == nil
         #@roster[grade] = []
-        @roster[grade] << name
+        @roster[grade] = name
       else
         @roster[grade] << name
       end #if
