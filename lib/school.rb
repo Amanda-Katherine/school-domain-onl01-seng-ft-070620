@@ -12,7 +12,7 @@ attr_accessor :roster
         @roster[grade] = []
         @roster[grade] << name
       else
-        @roster[grade] = name
+        @roster[grade] << name
       end #if
   end #add_student
 
