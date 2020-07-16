@@ -15,7 +15,7 @@ attr_accessor :roster
       end #if
 
 
-      if @roster[grade] == nil ?   @roster[grade] = [name] : @roster[grade] << name
+      @roster[grade] == nil ?   @roster[grade] = [name] : @roster[grade] << name
       # else
       #
       # end #if
